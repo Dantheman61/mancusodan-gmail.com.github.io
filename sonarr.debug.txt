@@ -1,0 +1,222 @@
+19-11-14 12:53:26.4|Debug|Api|[PUT] /api/v3/config/host: 202.Accepted (44 ms)
+19-11-14 12:53:26.4|Debug|SabnzbdProxy|Url: http://xxx.xxx.xxx.xxx:8080/api?mode=get_config&apikey=(removed)&output=json
+19-11-14 12:53:26.4|Debug|SabnzbdProxy|Url: http://xxx.xxx.xxx.xxx:8080/api?mode=version&apikey=(removed)&output=json
+19-11-14 12:53:26.4|Debug|SabnzbdProxy|Url: http://xxx.xxx.xxx.xxx:8080/api?mode=fullstatus&skip_dashboard=1&apikey=(removed)&output=json
+19-11-14 12:53:26.7|Debug|Api|[GET] /api/v3/health: 200.OK (1 ms)
+19-11-14 12:53:26.8|Debug|Api|[GET] /api/v3/health: 200.OK (1 ms)
+19-11-14 12:53:34.0|Debug|Api|[GET] /api/v3/queue?page=1&pageSize=20&sortDirection=ascending&sortKey=timeleft&includeUnknownSeriesItems=false: 200.OK (2 ms)
+19-11-14 12:53:34.3|Debug|Api|[GET] /api/v3/episode?episodeIds=28952: 200.OK (1 ms)
+19-11-14 12:53:44.1|Debug|SabnzbdProxy|Url: http://xxx.xxx.xxx.xxx:8080/api?mode=queue&start=0&limit=0&apikey=(removed)&output=json
+19-11-14 12:53:44.1|Debug|SabnzbdProxy|Url: http://xxx.xxx.xxx.xxx:8080/api?mode=history&start=0&limit=30&category=tv&apikey=(removed)&output=json
+19-11-14 12:53:44.1|Debug|Parser|Parsing string 'South.Park.S23E07.1080p.WEB.h264-TBS'
+19-11-14 12:53:44.1|Debug|Parser|Episode Parsed. South Park - S23E07 
+19-11-14 12:53:44.1|Debug|Parser|Language parsed: English
+19-11-14 12:53:44.1|Debug|QualityParser|Trying to parse quality for South.Park.S23E07.1080p.WEB.h264-TBS
+19-11-14 12:53:44.1|Debug|Parser|Quality parsed: WEBDL-1080p v1
+19-11-14 12:53:44.1|Debug|Parser|Release Group parsed: TBS
+19-11-14 12:53:44.1|Debug|Parser|Parsing string 'South.Park.S23E07.1080p.WEB.h264-TBS'
+19-11-14 12:53:44.1|Debug|Parser|Episode Parsed. South Park - S23E07 
+19-11-14 12:53:44.1|Debug|Parser|Language parsed: English
+19-11-14 12:53:44.1|Debug|QualityParser|Trying to parse quality for South.Park.S23E07.1080p.WEB.h264-TBS
+19-11-14 12:53:44.1|Debug|Parser|Quality parsed: WEBDL-1080p v1
+19-11-14 12:53:44.1|Debug|Parser|Release Group parsed: TBS
+19-11-14 12:53:44.1|Debug|Parser|Parsing string 'South.Park.S23E07.1080p.WEB.h264-TBS'
+19-11-14 12:53:44.1|Debug|Parser|Episode Parsed. South Park - S23E07 
+19-11-14 12:53:44.1|Debug|Parser|Language parsed: English
+19-11-14 12:53:44.1|Debug|QualityParser|Trying to parse quality for South.Park.S23E07.1080p.WEB.h264-TBS
+19-11-14 12:53:44.1|Debug|Parser|Quality parsed: WEBDL-1080p v1
+19-11-14 12:53:44.1|Debug|Parser|Release Group parsed: TBS
+19-11-14 12:53:44.1|Debug|DiskScanService|Scanning '/root/Downloads/complete/South.Park.S23E07.1080p.WEB.h264-TBS/' for video files
+19-11-14 12:53:44.1|Debug|DiskScanService|1 video files were found in /root/Downloads/complete/South.Park.S23E07.1080p.WEB.h264-TBS/
+19-11-14 12:53:44.1|Debug|ImportDecisionMaker|Analyzing 1/1 files.
+19-11-14 12:53:44.1|Debug|Parser|Parsing string 'South.Park.S23E07.1080p.WEB.h264-TBS'
+19-11-14 12:53:44.1|Debug|Parser|Episode Parsed. South Park - S23E07 
+19-11-14 12:53:44.1|Debug|Parser|Language parsed: English
+19-11-14 12:53:44.1|Debug|QualityParser|Trying to parse quality for South.Park.S23E07.1080p.WEB.h264-TBS
+19-11-14 12:53:44.1|Debug|Parser|Quality parsed: WEBDL-1080p v1
+19-11-14 12:53:44.1|Debug|Parser|Release Group parsed: TBS
+19-11-14 12:53:44.1|Debug|VideoFileInfoReader|Getting media info from /root/Downloads/complete/South.Park.S23E07.1080p.WEB.h264-TBS/a9370906e993410193a65fc9d5a0c21b.mkv
+19-11-14 12:53:44.1|Debug|DetectSample|Runtime is over 90 seconds
+19-11-14 12:53:44.1|Debug|Parser|Rejected Hashed Release Title: a9370906e993410193a65fc9d5a0c21b.mkv
+19-11-14 12:53:44.1|Debug|Parser|Attempting to parse episode info using directory and file names. South.Park.S23E07.1080p.WEB.h264-TBS
+19-11-14 12:53:44.1|Debug|Parser|Parsing string 'South.Park.S23E07.1080p.WEB.h264-TBS a9370906e993410193a65fc9d5a0c21b.mkv'
+19-11-14 12:53:44.1|Debug|Parser|Episode Parsed. South Park - S23E07 
+19-11-14 12:53:44.1|Debug|Parser|Language parsed: English
+19-11-14 12:53:44.1|Debug|QualityParser|Trying to parse quality for South.Park.S23E07.1080p.WEB.h264-TBS a9370906e993410193a65fc9d5a0c21b.mkv
+19-11-14 12:53:44.1|Debug|Parser|Quality parsed: WEBDL-1080p v1
+19-11-14 12:53:44.1|Debug|Parser|Release Group parsed: TBS
+19-11-14 12:53:44.1|Debug|VideoFileInfoReader|Getting media info from /root/Downloads/complete/South.Park.S23E07.1080p.WEB.h264-TBS/a9370906e993410193a65fc9d5a0c21b.mkv
+19-11-14 12:53:44.1|Debug|AggregateLanguage|Using language: English
+19-11-14 12:53:44.1|Debug|AggregateQuality|Using quality: WEBDL-1080p v1
+19-11-14 12:53:44.1|Debug|AbsoluteEpisodeNumberSpecification|Series type is not Anime, skipping check
+19-11-14 12:53:44.1|Debug|EpisodeTitleSpecification|Episode has a TBA title and recently aired
+19-11-14 12:53:44.1|Debug|VideoFileInfoReader|Getting media info from /root/Downloads/complete/South.Park.S23E07.1080p.WEB.h264-TBS/a9370906e993410193a65fc9d5a0c21b.mkv
+19-11-14 12:53:44.1|Debug|DetectSample|Runtime is over 90 seconds
+19-11-14 12:53:44.1|Debug|SameFileSpecification|No existing episode file, skipping
+19-11-14 12:53:44.1|Debug|ImportDecisionMaker|File rejected for the following reasons: [Permanent] Episode has a TBA title and recently aired
+19-11-14 12:54:00.1|Debug|Api|[GET] /api/v3/queue/details?seriesId=28: 200.OK (1 ms)
+19-11-14 12:54:00.1|Debug|Api|[GET] /api/v3/episode?seriesId=28: 200.OK (15 ms)
+19-11-14 12:54:00.2|Debug|Api|[GET] /api/v3/episodeFile?seriesId=28: 200.OK (46 ms)
+19-11-14 12:54:06.5|Info|NzbSearchService|Searching 5 indexers for [CSI: Miami : S05E07]
+19-11-14 12:54:06.5|Debug|Newznab|Downloading Feed https://nzbfinder.ws/api?t=tvsearch&cat=5000,5030,5040&extended=1&apikey=(removed)&offset=0&limit=100&tvdbid=78310&imdbid=tt0313043&rid=3184&tvmazeid=576&season=5&ep=7
+19-11-14 12:54:06.5|Debug|Newznab|Downloading Feed https://api.nzbgeek.info/api?t=tvsearch&cat=5000,5030,5040&extended=1&apikey=(removed)&offset=0&limit=100&tvdbid=78310&rid=3184&season=5&ep=7
+19-11-14 12:54:06.5|Debug|Newznab|Downloading Feed https://fastnzb.com/api?t=tvsearch&cat=5000,5030,5040&extended=1&apikey=(removed)&offset=0&limit=100&tvdbid=78310&imdbid=tt0313043&rid=3184&tvmazeid=576&season=5&ep=7
+19-11-14 12:54:06.5|Debug|Newznab|Downloading Feed https://abnzb.com/api?t=tvsearch&cat=5000,5030,5040&extended=1&apikey=(removed)&offset=0&limit=100&tvdbid=78310&rid=3184&tvmazeid=576&season=5&ep=7
+19-11-14 12:54:06.5|Debug|Newznab|Downloading Feed https://api.drunkenslug.com/api?t=tvsearch&cat=5000,5020,5030,5040,5050,5999&extended=1&apikey=(removed) &offset=0&limit=100&tvdbid=78310&imdbid=tt0313043&rid=3184&tvmazeid=576&season=5&ep=7
+19-11-14 12:54:06.6|Debug|Newznab|Downloading Feed https://abnzb.com/api?t=tvsearch&cat=5000,5030,5040&extended=1&apikey=(removed)&offset=0&limit=100&q=CSI%20Miami&season=5&ep=7
+19-11-14 12:54:07.0|Debug|Newznab|Downloading Feed https://fastnzb.com/api?t=tvsearch&cat=5000,5030,5040&extended=1&apikey=(removed)&offset=0&limit=100&q=CSI%20Miami&season=5&ep=7
+19-11-14 12:54:08.9|Debug|NzbSearchService|Total of 6 reports were found for [CSI: Miami : S05E07] from 5 indexers
+19-11-14 12:54:08.9|Debug|NzbSearchService|Setting last search time to: 11/14/2019 5:54:08 PM
+19-11-14 12:54:08.9|Info|DownloadDecisionMaker|Processing 6 releases
+19-11-14 12:54:08.9|Debug|DownloadDecisionMaker|Processing release 'CSI.Miami.S05E07.High.Octane.1080p.BluRay.REMUX.VC-1.DTS-HD.HR.5.1-EPSiLON' from 'nzbfinder.ws'
+19-11-14 12:54:08.9|Debug|Parser|Parsing string 'CSI.Miami.S05E07.High.Octane.1080p.BluRay.REMUX.VC-1.DTS-HD.HR.5.1-EPSiLON'
+19-11-14 12:54:08.9|Debug|Parser|Episode Parsed. CSI Miami - S05E07 
+19-11-14 12:54:08.9|Debug|Parser|Language parsed: English
+19-11-14 12:54:08.9|Debug|QualityParser|Trying to parse quality for CSI.Miami.S05E07.High.Octane.1080p.BluRay.REMUX.VC-1.DTS-HD.HR.5.1-EPSiLON
+19-11-14 12:54:08.9|Debug|Parser|Quality parsed: Bluray-1080p Remux v1
+19-11-14 12:54:08.9|Debug|Parser|Release Group parsed: EPSiLON
+19-11-14 12:54:08.9|Debug|AcceptableSizeSpecification|Beginning size check for: CSI.Miami.S05E07.High.Octane.1080p.BluRay.REMUX.VC-1.DTS-HD.HR.5.1-EPSiLON
+19-11-14 12:54:08.9|Debug|AcceptableSizeSpecification|Max size is unlimited - skipping check.
+19-11-14 12:54:08.9|Debug|AcceptableSizeSpecification|Item: CSI.Miami.S05E07.High.Octane.1080p.BluRay.REMUX.VC-1.DTS-HD.HR.5.1-EPSiLON, meets size constraints.
+19-11-14 12:54:08.9|Debug|AlreadyImportedSpecification|Performing already imported check on report
+19-11-14 12:54:08.9|Debug|AlreadyImportedSpecification|Skipping already imported check for episode without file
+19-11-14 12:54:08.9|Debug|BlacklistSpecification|CSI.Miami.S05E07.High.Octane.1080p.BluRay.REMUX.VC-1.DTS-HD.HR.5.1-EPSiLON is blacklisted, rejecting.
+19-11-14 12:54:08.9|Debug|LanguageSpecification|Checking if report meets language requirements. English
+19-11-14 12:54:08.9|Debug|MaximumSizeSpecification|Maximum size is not set.
+19-11-14 12:54:08.9|Debug|MinimumAgeSpecification|Minimum age is not set.
+19-11-14 12:54:09.0|Debug|QualityAllowedByProfileSpecification|Checking if report meets quality requirements. Bluray-1080p Remux v1
+19-11-14 12:54:09.0|Debug|ReleaseRestrictionsSpecification|Checking if release meets restrictions: CSI.Miami.S05E07.High.Octane.1080p.BluRay.REMUX.VC-1.DTS-HD.HR.5.1-EPSiLON
+19-11-14 12:54:09.0|Debug|ReleaseRestrictionsSpecification|[CSI.Miami.S05E07.High.Octane.1080p.BluRay.REMUX.VC-1.DTS-HD.HR.5.1-EPSiLON] No restrictions apply, allowing
+19-11-14 12:54:09.0|Debug|RetentionSpecification|Checking if report meets retention requirements. 654
+19-11-14 12:54:09.0|Debug|SeriesSpecification|Checking if series matches searched series
+19-11-14 12:54:09.0|Debug|DelaySpecification|Ignoring delay for user invoked search
+19-11-14 12:54:09.0|Debug|HistorySpecification|Skipping history check during search
+19-11-14 12:54:09.0|Debug|MonitoredEpisodeSpecification|Skipping monitored check during search
+19-11-14 12:54:09.0|Debug|DownloadDecisionMaker|Release rejected for the following reasons: [Permanent] Release is blacklisted
+19-11-14 12:54:09.0|Debug|DownloadDecisionMaker|Processing release 'CSI.Miami.S05E07.720p.WEB-DL.H264' from 'nzbfinder.ws'
+19-11-14 12:54:09.0|Debug|Parser|Parsing string 'CSI.Miami.S05E07.720p.WEB-DL.H264'
+19-11-14 12:54:09.0|Debug|Parser|Episode Parsed. CSI Miami - S05E07 
+19-11-14 12:54:09.0|Debug|Parser|Language parsed: English
+19-11-14 12:54:09.0|Debug|QualityParser|Trying to parse quality for CSI.Miami.S05E07.720p.WEB-DL.H264
+19-11-14 12:54:09.0|Debug|Parser|Quality parsed: WEBDL-720p v1
+19-11-14 12:54:09.0|Debug|Parser|Release Group parsed: 
+19-11-14 12:54:09.0|Debug|AcceptableSizeSpecification|Beginning size check for: CSI.Miami.S05E07.720p.WEB-DL.H264
+19-11-14 12:54:09.0|Debug|AcceptableSizeSpecification|Item: CSI.Miami.S05E07.720p.WEB-DL.H264, meets size constraints.
+19-11-14 12:54:09.0|Debug|AlreadyImportedSpecification|Performing already imported check on report
+19-11-14 12:54:09.0|Debug|AlreadyImportedSpecification|Skipping already imported check for episode without file
+19-11-14 12:54:09.0|Debug|BlacklistSpecification|CSI.Miami.S05E07.720p.WEB-DL.H264 is blacklisted, rejecting.
+19-11-14 12:54:09.0|Debug|LanguageSpecification|Checking if report meets language requirements. English
+19-11-14 12:54:09.0|Debug|MaximumSizeSpecification|Maximum size is not set.
+19-11-14 12:54:09.0|Debug|MinimumAgeSpecification|Minimum age is not set.
+19-11-14 12:54:09.0|Debug|QualityAllowedByProfileSpecification|Checking if report meets quality requirements. WEBDL-720p v1
+19-11-14 12:54:09.0|Debug|ReleaseRestrictionsSpecification|Checking if release meets restrictions: CSI.Miami.S05E07.720p.WEB-DL.H264
+19-11-14 12:54:09.0|Debug|ReleaseRestrictionsSpecification|[CSI.Miami.S05E07.720p.WEB-DL.H264] No restrictions apply, allowing
+19-11-14 12:54:09.0|Debug|RetentionSpecification|Checking if report meets retention requirements. 3132
+19-11-14 12:54:09.0|Debug|SeriesSpecification|Checking if series matches searched series
+19-11-14 12:54:09.0|Debug|DelaySpecification|Ignoring delay for user invoked search
+19-11-14 12:54:09.0|Debug|HistorySpecification|Skipping history check during search
+19-11-14 12:54:09.0|Debug|MonitoredEpisodeSpecification|Skipping monitored check during search
+19-11-14 12:54:09.0|Debug|DownloadDecisionMaker|Release rejected for the following reasons: [Permanent] Release is blacklisted
+19-11-14 12:54:09.0|Debug|DownloadDecisionMaker|Processing release 'CSI.Miami.S05E07.High.Octane.1080p.BluRay.REMUX.VC-1.DTS-HD.HR.5.1-EPSiLON English' from 'drunkenslug.com'
+19-11-14 12:54:09.0|Debug|Parser|Parsing string 'CSI.Miami.S05E07.High.Octane.1080p.BluRay.REMUX.VC-1.DTS-HD.HR.5.1-EPSiLON English'
+19-11-14 12:54:09.0|Debug|Parser|Episode Parsed. CSI Miami - S05E07 
+19-11-14 12:54:09.0|Debug|Parser|Language parsed: English
+19-11-14 12:54:09.0|Debug|QualityParser|Trying to parse quality for CSI.Miami.S05E07.High.Octane.1080p.BluRay.REMUX.VC-1.DTS-HD.HR.5.1-EPSiLON English
+19-11-14 12:54:09.0|Debug|Parser|Quality parsed: Bluray-1080p Remux v1
+19-11-14 12:54:09.0|Debug|Parser|Release Group parsed: EPSiLON
+19-11-14 12:54:09.0|Debug|AcceptableSizeSpecification|Beginning size check for: CSI.Miami.S05E07.High.Octane.1080p.BluRay.REMUX.VC-1.DTS-HD.HR.5.1-EPSiLON English
+19-11-14 12:54:09.0|Debug|AcceptableSizeSpecification|Max size is unlimited - skipping check.
+19-11-14 12:54:09.0|Debug|AcceptableSizeSpecification|Item: CSI.Miami.S05E07.High.Octane.1080p.BluRay.REMUX.VC-1.DTS-HD.HR.5.1-EPSiLON English, meets size constraints.
+19-11-14 12:54:09.0|Debug|AlreadyImportedSpecification|Performing already imported check on report
+19-11-14 12:54:09.0|Debug|AlreadyImportedSpecification|Skipping already imported check for episode without file
+19-11-14 12:54:09.0|Debug|BlacklistSpecification|CSI.Miami.S05E07.High.Octane.1080p.BluRay.REMUX.VC-1.DTS-HD.HR.5.1-EPSiLON English is blacklisted, rejecting.
+19-11-14 12:54:09.0|Debug|LanguageSpecification|Checking if report meets language requirements. English
+19-11-14 12:54:09.0|Debug|MaximumSizeSpecification|Maximum size is not set.
+19-11-14 12:54:09.0|Debug|MinimumAgeSpecification|Minimum age is not set.
+19-11-14 12:54:09.0|Debug|QualityAllowedByProfileSpecification|Checking if report meets quality requirements. Bluray-1080p Remux v1
+19-11-14 12:54:09.0|Debug|ReleaseRestrictionsSpecification|Checking if release meets restrictions: CSI.Miami.S05E07.High.Octane.1080p.BluRay.REMUX.VC-1.DTS-HD.HR.5.1-EPSiLON English
+19-11-14 12:54:09.0|Debug|ReleaseRestrictionsSpecification|[CSI.Miami.S05E07.High.Octane.1080p.BluRay.REMUX.VC-1.DTS-HD.HR.5.1-EPSiLON English] No restrictions apply, allowing
+19-11-14 12:54:09.0|Debug|RetentionSpecification|Checking if report meets retention requirements. 654
+19-11-14 12:54:09.0|Debug|SeriesSpecification|Checking if series matches searched series
+19-11-14 12:54:09.0|Debug|DelaySpecification|Ignoring delay for user invoked search
+19-11-14 12:54:09.0|Debug|HistorySpecification|Skipping history check during search
+19-11-14 12:54:09.0|Debug|MonitoredEpisodeSpecification|Skipping monitored check during search
+19-11-14 12:54:09.0|Debug|DownloadDecisionMaker|Release rejected for the following reasons: [Permanent] Release is blacklisted
+19-11-14 12:54:09.0|Debug|DownloadDecisionMaker|Processing release 'CSI.Miami.S05E07.Benzin.im.Blut.GERMAN.WS.DVDRiP.XviD.REPACK-SOF_usenet-space-cowbys ' from 'drunkenslug.com'
+19-11-14 12:54:09.0|Debug|Parser|Parsing string 'CSI.Miami.S05E07.Benzin.im.Blut.GERMAN.WS.DVDRiP.XviD.REPACK-SOF_usenet-space-cowbys '
+19-11-14 12:54:09.0|Debug|Parser|Episode Parsed. CSI Miami - S05E07 
+19-11-14 12:54:09.0|Debug|Parser|Language parsed: German
+19-11-14 12:54:09.0|Debug|QualityParser|Trying to parse quality for CSI.Miami.S05E07.Benzin.im.Blut.GERMAN.WS.DVDRiP.XviD.REPACK-SOF_usenet-space-cowbys 
+19-11-14 12:54:09.0|Debug|Parser|Quality parsed: DVD v2
+19-11-14 12:54:09.0|Debug|Parser|Release Group parsed: cowbys
+19-11-14 12:54:09.0|Debug|AcceptableSizeSpecification|Beginning size check for: CSI.Miami.S05E07.Benzin.im.Blut.GERMAN.WS.DVDRiP.XviD.REPACK-SOF_usenet-space-cowbys 
+19-11-14 12:54:09.0|Debug|AcceptableSizeSpecification|Item: CSI.Miami.S05E07.Benzin.im.Blut.GERMAN.WS.DVDRiP.XviD.REPACK-SOF_usenet-space-cowbys , meets size constraints.
+19-11-14 12:54:09.0|Debug|AlreadyImportedSpecification|Performing already imported check on report
+19-11-14 12:54:09.0|Debug|AlreadyImportedSpecification|Skipping already imported check for episode without file
+19-11-14 12:54:09.0|Debug|LanguageSpecification|Checking if report meets language requirements. German
+19-11-14 12:54:09.0|Debug|LanguageSpecification|Report Language: German rejected because it is not wanted in profile English
+19-11-14 12:54:09.0|Debug|MaximumSizeSpecification|Maximum size is not set.
+19-11-14 12:54:09.0|Debug|MinimumAgeSpecification|Minimum age is not set.
+19-11-14 12:54:09.0|Debug|QualityAllowedByProfileSpecification|Checking if report meets quality requirements. DVD v2
+19-11-14 12:54:09.0|Debug|ReleaseRestrictionsSpecification|Checking if release meets restrictions: CSI.Miami.S05E07.Benzin.im.Blut.GERMAN.WS.DVDRiP.XviD.REPACK-SOF_usenet-space-cowbys 
+19-11-14 12:54:09.0|Debug|ReleaseRestrictionsSpecification|[CSI.Miami.S05E07.Benzin.im.Blut.GERMAN.WS.DVDRiP.XviD.REPACK-SOF_usenet-space-cowbys ] No restrictions apply, allowing
+19-11-14 12:54:09.0|Debug|RetentionSpecification|Checking if report meets retention requirements. 2941
+19-11-14 12:54:09.0|Debug|SeriesSpecification|Checking if series matches searched series
+19-11-14 12:54:09.0|Debug|DelaySpecification|Ignoring delay for user invoked search
+19-11-14 12:54:09.0|Debug|HistorySpecification|Skipping history check during search
+19-11-14 12:54:09.0|Debug|MonitoredEpisodeSpecification|Skipping monitored check during search
+19-11-14 12:54:09.0|Debug|DownloadDecisionMaker|Release rejected for the following reasons: [Permanent] German is not allowed in profile English
+19-11-14 12:54:09.0|Debug|DownloadDecisionMaker|Processing release 'CSI.Miami.S05E07.720p.WEB-DL.H264' from 'drunkenslug.com'
+19-11-14 12:54:09.0|Debug|Parser|Parsing string 'CSI.Miami.S05E07.720p.WEB-DL.H264'
+19-11-14 12:54:09.0|Debug|Parser|Episode Parsed. CSI Miami - S05E07 
+19-11-14 12:54:09.0|Debug|Parser|Language parsed: English
+19-11-14 12:54:09.0|Debug|QualityParser|Trying to parse quality for CSI.Miami.S05E07.720p.WEB-DL.H264
+19-11-14 12:54:09.0|Debug|Parser|Quality parsed: WEBDL-720p v1
+19-11-14 12:54:09.0|Debug|Parser|Release Group parsed: 
+19-11-14 12:54:09.0|Debug|AcceptableSizeSpecification|Beginning size check for: CSI.Miami.S05E07.720p.WEB-DL.H264
+19-11-14 12:54:09.0|Debug|AcceptableSizeSpecification|Item: CSI.Miami.S05E07.720p.WEB-DL.H264, meets size constraints.
+19-11-14 12:54:09.0|Debug|AlreadyImportedSpecification|Performing already imported check on report
+19-11-14 12:54:09.0|Debug|AlreadyImportedSpecification|Skipping already imported check for episode without file
+19-11-14 12:54:09.0|Debug|BlacklistSpecification|CSI.Miami.S05E07.720p.WEB-DL.H264 is blacklisted, rejecting.
+19-11-14 12:54:09.0|Debug|LanguageSpecification|Checking if report meets language requirements. English
+19-11-14 12:54:09.0|Debug|MaximumSizeSpecification|Maximum size is not set.
+19-11-14 12:54:09.0|Debug|MinimumAgeSpecification|Minimum age is not set.
+19-11-14 12:54:09.0|Debug|QualityAllowedByProfileSpecification|Checking if report meets quality requirements. WEBDL-720p v1
+19-11-14 12:54:09.0|Debug|ReleaseRestrictionsSpecification|Checking if release meets restrictions: CSI.Miami.S05E07.720p.WEB-DL.H264
+19-11-14 12:54:09.0|Debug|ReleaseRestrictionsSpecification|[CSI.Miami.S05E07.720p.WEB-DL.H264] No restrictions apply, allowing
+19-11-14 12:54:09.0|Debug|RetentionSpecification|Checking if report meets retention requirements. 3132
+19-11-14 12:54:09.0|Debug|SeriesSpecification|Checking if series matches searched series
+19-11-14 12:54:09.0|Debug|DelaySpecification|Ignoring delay for user invoked search
+19-11-14 12:54:09.0|Debug|HistorySpecification|Skipping history check during search
+19-11-14 12:54:09.0|Debug|MonitoredEpisodeSpecification|Skipping monitored check during search
+19-11-14 12:54:09.0|Debug|DownloadDecisionMaker|Release rejected for the following reasons: [Permanent] Release is blacklisted
+19-11-14 12:54:09.0|Debug|DownloadDecisionMaker|Processing release 'sof-csimiamidxvid-s05e07rp' from 'https://api.nzbgeek.info/'
+19-11-14 12:54:09.0|Debug|Parser|Parsing string 'sof-csimiamidxvid-s05e07rp'
+19-11-14 12:54:09.0|Debug|Parser|Episode Parsed. sof-csimiamidxvid - S05E07 
+19-11-14 12:54:09.0|Debug|Parser|Language parsed: English
+19-11-14 12:54:09.0|Debug|QualityParser|Trying to parse quality for sof-csimiamidxvid-s05e07rp
+19-11-14 12:54:09.0|Debug|Parser|Quality parsed: Unknown v1
+19-11-14 12:54:09.0|Debug|Parser|Release Group parsed: s05e07rp
+19-11-14 12:54:09.0|Debug|ParsingService|Found matching series by TVDB ID 78310, an alias may be need for: sof-csimiamidxvid
+19-11-14 12:54:09.0|Debug|AcceptableSizeSpecification|Beginning size check for: sof-csimiamidxvid-s05e07rp
+19-11-14 12:54:09.0|Debug|AcceptableSizeSpecification|Item: sof-csimiamidxvid-s05e07rp, meets size constraints.
+19-11-14 12:54:09.0|Debug|AlreadyImportedSpecification|Performing already imported check on report
+19-11-14 12:54:09.0|Debug|AlreadyImportedSpecification|Skipping already imported check for episode without file
+19-11-14 12:54:09.0|Debug|BlacklistSpecification|sof-csimiamidxvid-s05e07rp is blacklisted, rejecting.
+19-11-14 12:54:09.0|Debug|LanguageSpecification|Checking if report meets language requirements. English
+19-11-14 12:54:09.0|Debug|MaximumSizeSpecification|Maximum size is not set.
+19-11-14 12:54:09.0|Debug|MinimumAgeSpecification|Minimum age is not set.
+19-11-14 12:54:09.0|Debug|QualityAllowedByProfileSpecification|Checking if report meets quality requirements. Unknown v1
+19-11-14 12:54:09.0|Debug|ReleaseRestrictionsSpecification|Checking if release meets restrictions: sof-csimiamidxvid-s05e07rp
+19-11-14 12:54:09.0|Debug|ReleaseRestrictionsSpecification|[sof-csimiamidxvid-s05e07rp] No restrictions apply, allowing
+19-11-14 12:54:09.0|Debug|RetentionSpecification|Checking if report meets retention requirements. 1965
+19-11-14 12:54:09.0|Debug|SeriesSpecification|Checking if series matches searched series
+19-11-14 12:54:09.0|Debug|DelaySpecification|Ignoring delay for user invoked search
+19-11-14 12:54:09.0|Debug|HistorySpecification|Skipping history check during search
+19-11-14 12:54:09.0|Debug|MonitoredEpisodeSpecification|Skipping monitored check during search
+19-11-14 12:54:09.0|Debug|DownloadDecisionMaker|Release rejected for the following reasons: [Permanent] Release is blacklisted
+19-11-14 12:54:09.0|Debug|Api|[GET] /api/v3/release?episodeId=2759: 200.OK (2500 ms)
+19-11-14 12:54:13.4|Debug|Api|[GET] /api/v3/health: 200.OK (1 ms)
+19-11-14 12:54:13.4|Debug|Api|[GET] /api/v3/system/status: 200.OK (3 ms)
+19-11-14 12:54:13.4|Debug|Api|[GET] /api/v3/diskspace: 200.OK (83 ms)
+19-11-14 12:54:14.5|Debug|Api|[GET] /api/v3/log/file: 200.OK (2 ms)
